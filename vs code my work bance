@@ -1,4 +1,7 @@
 {
+    "debug.terminal.clearBeforeReusing": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
     "tabnine.experimentalAutoImports": true,
     "database-client.autoSync": true,
     "workbench.colorTheme": "Gottschalg Theme",
@@ -6,10 +9,13 @@
     "git.enableSmartCommit": true,
     "workbench.iconTheme": "material-icon-theme",
     "files.autoSave": "afterDelay",
-    "workbench.settings.applyToAllProfiles": [
-
-    ],
+    "workbench.settings.applyToAllProfiles": [],
     "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "explicit",
-    "search.seedWithNearestWord": true 
+    "search.seedWithNearestWord": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 22,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
 }
