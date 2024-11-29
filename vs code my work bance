@@ -1,0 +1,15 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "database-client.autoSync": true,
+    "workbench.colorTheme": "Gottschalg Theme",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "workbench.settings.applyToAllProfiles": [
+
+    ],
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "search.seedWithNearestWord": true 
+}
