@@ -79,12 +79,12 @@
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "sml": "cd $dir && sml $fileName",
         // for terminal 
-        "c" : "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "cpp" : "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",  
+       // "c" : "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        //"cpp" : "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",  
 
-        #for input output file
-        // "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && timeout 10s $dir$fileNameWithoutExt <input.txt> output.txt || (echo . > output.txt && echo 'Time Limit Gone') ",
-        // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt <input.txt> output.txt",
+        // for input output file
+         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && timeout 10s $dir$fileNameWithoutExt <input.txt> output.txt || (echo . > output.txt && echo 'Time Limit Gone') ",
+         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt <input.txt> output.txt",
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.saveFileBeforeRun": true,
